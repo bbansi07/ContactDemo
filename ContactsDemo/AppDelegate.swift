@@ -2,10 +2,10 @@
 //  AppDelegate.swift
 //  ContactsDemo
 //
-//  Created by Zeitech Solutions on 23/05/17.
+//  Created by Bansi Bhatt  on 23/05/17.
 //
 //
-
+//Document
 import UIKit
 
 @UIApplicationMain
@@ -41,6 +41,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func getAppDelgate()-> AppDelegate{
+       return UIApplication.shared.delegate as! AppDelegate
+    }
 
 }
 
